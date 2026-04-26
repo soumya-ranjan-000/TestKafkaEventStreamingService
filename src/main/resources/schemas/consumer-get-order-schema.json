@@ -1,0 +1,48 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "_id": {
+      "type": "string"
+    },
+    "event_id": {
+      "type": "string"
+    },
+    "customer_id": {
+      "type": "string"
+    },
+    "product_id": {
+      "type": "string"
+    },
+    "quantity": {
+      "type": "integer"
+    },
+    "price": {
+      "type": "number"
+    },
+    "status": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "processed_at": {
+      "type": "string"
+    },
+    "correlation_id": {
+      "type": "null"
+    }
+  },
+  "required": [
+    "_id",
+    "event_id",
+    "customer_id",
+    "product_id",
+    "quantity",
+    "price",
+    "status",
+    "created_at",
+    "processed_at",
+    "correlation_id"
+  ]
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "_id": "QA-CONTAINER",
+    "productId": "QA-CONTAINER",
+    "name": "QA Test Product",
+    "stock": 500,
+    "price": 49.99
+  },
+  {
+    "_id": "PROD-123",
+    "productId": "PROD-123",
+    "name": "Reference Product",
+    "stock": 100,
+    "price": 150.00
+  }
+]
